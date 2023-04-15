@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --green-color: #007B0C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open sans", sans-serif;
+    text-decoration: none;
+    color: var(--black-color);
+    outline: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: var(--white-color);
+}
+
+.navigation {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 4rem;
+    box-shadow: 0 0.1rem 0.5rem #ccc;
+    position: fixed;
+    transition: all 0.5s;
+}
+
+.navigation img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    margin-right: 4rem;
+    gap: 4.4rem;
+}
+
+.nav-menu .nav-item {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+    padding: 0px 5%;
+}
+
+.textBox {
+    width: 45%;
+}
+
+.textBox h2 {
+    font-size: 2.7rem;
+    color: var(--black-color);
+    margin-bottom: 0.8rem;
+}
+
+.textBox span {
+    color: var(--green-color);
+    font-weight: bold;
+}
+
+.content-img img {
+    width: 100%;
+}
