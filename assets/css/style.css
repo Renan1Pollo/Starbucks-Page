@@ -76,6 +76,10 @@ body {
     font-weight: bold;
 }
 
+.content-img {
+    margin-top: 7rem;
+}
+
 .content-img img {
-    width: 100%;
+    width: 80%;
 }
